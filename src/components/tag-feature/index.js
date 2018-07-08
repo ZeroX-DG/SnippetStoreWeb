@@ -9,7 +9,7 @@ export default class TagFeature extends React.Component {
           <Box basis='1/2' pad='large'>
             <Heading tag='h2'>Tags support</Heading>
             <Paragraph style={{ lineHeight: '1.8em' }}>
-              Tired of spending time for finding your snippet? With Snippet Store,
+              Tired of spending time finding your snippet? With Snippet Store,
               you can easily add a tag to your snippets and retrieve them rapidly,
               using the tag list in the left menu or directly enter the tag in the search bar.
             </Paragraph>
