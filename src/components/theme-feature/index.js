@@ -5,7 +5,7 @@ import './theme.scss'
 export default class ThemeFeature extends React.Component {
   render() {
     return (
-      <Section style={{ background: '#f5f5f5'}} className='theme-feature' pad='large'>
+      <Section className='theme-feature' pad='large'>
         <Heading tag='h2' align='center'>Choose your favorite theme</Heading>
         <Box direction='column' align='center'>
           <Paragraph style={{ lineHeight: '1.8em' }}>
