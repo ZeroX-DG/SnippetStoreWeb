@@ -4,6 +4,7 @@ import LongIntro from '../components/long-intro'
 import TagFeature from '../components/tag-feature'
 import LayoutFeature from '../components/layout-feature'
 import ThemeFeature from '../components/theme-feature'
+import EncodeFeature from '../components/encode'
 
 export default class Index extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class Index extends React.Component {
         <LayoutFeature />
         <ThemeFeature />
         <TagFeature />
+        <EncodeFeature />
       </div>
     )
   }
