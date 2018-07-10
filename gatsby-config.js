@@ -1,5 +1,4 @@
 const autoprefixer = require("autoprefixer");
-const webpack = require("webpack");
 
 module.exports = {
   siteMetadata: {
@@ -16,7 +15,6 @@ module.exports = {
           })
         ]
       }
-    },
-    new webpack.DefinePlugin({ "global.GENTLY": false })
+    }
   ]
 };
