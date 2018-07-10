@@ -1,7 +1,22 @@
 import React from "react";
 import { Hero, Paragraph, Box, Heading, Image } from "grommet";
+import axios from "axios";
 
 export default class Intro extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      latestVer: "0.0.0"
+    };
+  }
+
+  componentDidMount() {
+    const link = "https://api.github.com/repos/ZeroX-DG/SnippetStore/tags";
+    axios.get(link).then(tags => {
+      this.setState({ latestVer: tags.data[0].name });
+    });
+  }
+
   render() {
     return (
       <Hero size="large" id="intro">
@@ -16,7 +31,7 @@ export default class Intro extends React.Component {
                 A snippet management app for developers
               </Paragraph>
               <Paragraph size="large">
-                v0.2.1 -{" "}
+                {this.state.latestVer} -{" "}
                 <a href="https://github.com/ZeroX-DG/SnippetStore/blob/master/CHANGELOG.md">
                   Changelog
                 </a>
