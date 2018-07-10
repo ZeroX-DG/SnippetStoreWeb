@@ -11,7 +11,7 @@ export default class Intro extends React.Component {
           <Box basis='1/2'
             align='end'
             pad='medium'>
-            <Image src='screenshot-list-and-detail-light.png' size='large' />
+            <Image src='screenshot-list-and-detail-light.png' fit='cover'/>
           </Box>
           <Box basis='1/2'
             align='start'
