@@ -4,7 +4,7 @@ import { Hero, Paragraph, Box, Heading, Image } from "grommet";
 export default class Intro extends React.Component {
   render() {
     return (
-      <Hero size="large">
+      <Hero size="large" id="intro">
         <Box direction="row" justify="center" align="center">
           <Box basis="1/2" align="end" pad="medium">
             <Image src="icon512.png" />
