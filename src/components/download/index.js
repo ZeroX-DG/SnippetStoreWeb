@@ -24,7 +24,7 @@ export default class Download extends React.Component {
           <Box align="center" direction="row">
             <Button
               primary={true}
-              href="#"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.1/Snippet.Store.Setup.0.2.1.exe"
               className="download-btn"
               pad="large"
               label={
@@ -37,10 +37,21 @@ export default class Download extends React.Component {
               className="download-btn"
               primary={true}
               label="Linux / 64bit"
-              href="#"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.1/snippetstore_0.2.1_amd64.deb"
               label={
                 <div>
-                  <i className="fa fa-linux" />&nbsp;Windows / 64bit
+                  <i className="fa fa-linux" />&nbsp;Linux / 64bit (.deb)
+                </div>
+              }
+            />
+            <Button
+              className="download-btn"
+              primary={true}
+              label="Linux / 64bit"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.1/snippetstore-0.2.1-x86_64.AppImage"
+              label={
+                <div>
+                  <i className="fa fa-linux" />&nbsp;Linux / 64bit (.AppImage)
                 </div>
               }
             />

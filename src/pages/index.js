@@ -6,6 +6,7 @@ import LayoutFeature from "../components/layout-feature";
 import ThemeFeature from "../components/theme-feature";
 import TrayIcon from "../components/tray";
 import Download from "../components/download";
+import FooterSection from "../components/footer";
 
 export default class Index extends React.Component {
   render() {
@@ -18,6 +19,7 @@ export default class Index extends React.Component {
         <TagFeature />
         <TrayIcon />
         <Download />
+        <FooterSection />
       </div>
     );
   }
