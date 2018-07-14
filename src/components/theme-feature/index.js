@@ -11,10 +11,10 @@ export default class ThemeFeature extends React.Component {
         </Heading>
         <Box direction="column" align="center">
           <Paragraph style={{ lineHeight: "1.8em" }}>
-            Not only Snippet Store theme is customizable, it also provides a
-            large number of editor themes to fit your needs and you can also
-            customize the tag color in the interface setting modal. Currently,
-            Snippet Store supports 2 themes: Dark and Light.
+            Snippet Store provides 2 main themes: Dark and Light and a wide
+            range of editor themes to fit your needs. Everything you need
+            including your favorite themes is located in the setting modal which
+            can be opened with the keyboard shortcut: ctrl + ,
           </Paragraph>
           <Box style={{ position: "relative" }}>
             <Image src="noframe-list-and-detail.png" fit="cover" />
