@@ -36,6 +36,7 @@ export default class HTML extends React.Component {
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           />
+          <title>Snippet Store</title>
           <link rel="shortcut icon" type="image/png" href="icon512.png" />
           {this.props.headComponents}
           {css}
