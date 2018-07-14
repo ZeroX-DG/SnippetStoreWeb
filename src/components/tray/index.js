@@ -20,8 +20,8 @@ export default class TrayIcon extends React.Component {
             <Paragraph style={{ lineHeight: "1.8em" }}>
               Fast and convenient is what Snippet Store want to provide to
               users; Therefore, from v0.2.1, tray icon is supported for quicker
-              access to snippet list. With one click, Snippet Store will appear
-              to save the day
+              access to snippet list. With just one click, Snippet Store will
+              appear and save the day.
             </Paragraph>
           </Box>
         </Box>
