@@ -17,7 +17,7 @@ export default class Intro extends React.Component {
                 A snippet management app for developers
               </Paragraph>
               <Paragraph size="large">
-                v0.2.3 -{" "}
+                v0.2.4 -{" "}
                 <a href="https://github.com/ZeroX-DG/SnippetStore/blob/master/CHANGELOG.md">
                   Changelog
                 </a>
