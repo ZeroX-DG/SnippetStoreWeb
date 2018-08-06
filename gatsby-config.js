@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: "Gromsby Demo"
   },
-  pathPrefix: "/gatsby-starter-grommet",
+  pathPrefix: "/SnippetStoreWeb",
   plugins: [
     {
       resolve: "custom-sass-loader",
