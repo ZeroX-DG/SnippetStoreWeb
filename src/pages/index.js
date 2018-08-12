@@ -8,6 +8,7 @@ import TrayIcon from "../components/tray";
 import Download from "../components/download";
 import FooterSection from "../components/footer";
 import MenuSection from "../components/menu";
+import IntegrationFeature from '../components/integration-feature'
 
 export default class Index extends React.Component {
   render() {
@@ -20,6 +21,7 @@ export default class Index extends React.Component {
         <ThemeFeature />
         <TagFeature />
         <TrayIcon />
+        <IntegrationFeature />
         <Download />
         <FooterSection />
       </div>
