@@ -24,12 +24,13 @@ export default class Download extends React.Component {
           <Box align="center" direction="row">
             <Button
               primary={true}
-              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.7/Snippet.Store.Setup.0.2.7.exe"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.8/Snippet.Store.Setup.0.2.8.exe"
               className="download-btn"
               pad="large"
               label={
                 <div>
-                  <i className="fa fa-windows" />&nbsp;Windows / 64bit
+                  <i className="fa fa-windows" />
+                  &nbsp;Windows / 64bit
                 </div>
               }
             />
@@ -37,10 +38,11 @@ export default class Download extends React.Component {
               className="download-btn"
               primary={true}
               label="Linux / 64bit"
-              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.7/snippetstore_0.2.7_amd64.deb"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.8/snippetstore_0.2.8_amd64.deb"
               label={
                 <div>
-                  <i className="fa fa-linux" />&nbsp;Linux / 64bit (.deb)
+                  <i className="fa fa-linux" />
+                  &nbsp;Linux / 64bit (.deb)
                 </div>
               }
             />
@@ -48,10 +50,11 @@ export default class Download extends React.Component {
               className="download-btn"
               primary={true}
               label="Linux / 64bit"
-              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.7/snippetstore-0.2.7-x86_64.AppImage"
+              href="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.8/snippetstore-0.2.8-x86_64.AppImage"
               label={
                 <div>
-                  <i className="fa fa-linux" />&nbsp;Linux / 64bit (.AppImage)
+                  <i className="fa fa-linux" />
+                  &nbsp;Linux / 64bit (.AppImage)
                 </div>
               }
             />
