@@ -1,6 +1,5 @@
 import React from "react";
 import { Hero, Paragraph, Box, Heading, Image } from "grommet";
-import axios from "axios";
 
 export default class Intro extends React.Component {
   render() {
@@ -17,7 +16,7 @@ export default class Intro extends React.Component {
                 A snippet management app for developers
               </Paragraph>
               <Paragraph size="large">
-                v0.2.8 -{" "}
+                v0.2.9 -{" "}
                 <a href="https://github.com/ZeroX-DG/SnippetStore/blob/master/CHANGELOG.md">
                   Changelog
                 </a>
